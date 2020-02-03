@@ -80,7 +80,8 @@
 			"-DDEVICE_SPI=1",
 			"-DDEVICE_ANALOGIN=1",
 			"-DDEVICE_PWMOUT=1",
-			"-DTARGET_LIKE_CORTEX_M0"
+			"-DTARGET_LIKE_CORTEX_M0",
+			"-D_OSCT=2"
 		],
 		"Desktop": [
 			"-I${projectPath}",
@@ -155,7 +156,8 @@
 			"-DDEVICE_SPI=1",
 			"-DDEVICE_ANALOGIN=1",
 			"-DDEVICE_PWMOUT=1",
-			"-DTARGET_LIKE_CORTEX_M0"
+			"-DTARGET_LIKE_CORTEX_M0",
+			"-D_OSCT=2"
 		],
 		"Desktop": [
 			"-I${projectPath}",
